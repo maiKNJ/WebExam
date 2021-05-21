@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>About</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/about.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<h1 id="indexH1">Profile</h1>
+
+<div class="topnav">
+  <a href="index.html"> Home </a>
+  <a href="availSpons.html"> Available sponsors </a>
+  <a class="active" href="about.html"> About</a>
+  <button onclick="document.getElementById('id01').style.display = 'block'"> Login</button>
+</div>
+
+<div class="row">
+  <div class="column left">
+    <div class="card">
+      <img src="icon.png" alt="profile pic">
+      <h1>Name Of Athlete</h1>
+      <p class="sport">Køge</p>
+      <p>Archery</p>
+      <div style="margin: 24px 0;">
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-instagram"></i></a>
+      </div>
+      <p><button id="msgbtn">Message for colab</button></p>
+    </div>
+  </div>
+  <div class="column right">
+    <p>lorem ipsum bla fghjklæ  lorem ipsum collu lorem ipsum collu lorem ipsum collu lorem ipsum collu lorem ipsum collu
+      lorem ipsum collulorem ipsum collulorem ipsum collulorem ipsum collulorem ipsum collulorem ipsum collulorem ipsum collu
+      lorem ipsum collulorem ipsum collulorem ipsum collulorem ipsum collulorem ipsum collulorem ipsum collulorem ipsum collu
+      lorem ipsum collulorem ipsum collulorem ipsum collulorem ipsum collulorem ipsum collulorem ipsum collulorem ipsum collu
+    </p>
+  </div>
+</div>
+
+<div class="container">
+  <div class="myslides">
+    <div class="numbertext">1/6</div>
+    <img src="icon.png" style="width: 100%">
+  </div>
+
+  <div class="myslides">
+    <div class="numbertext">2/6</div>
+    <img src="icon.png" style="width: 100%">
+  </div>
+
+  <div class="myslides">
+    <div class="numbertext">3/6</div>
+    <img src="icon.png" style="width: 100%">
+  </div>
+
+  <div class="myslides">
+    <div class="numbertext">4/6</div>
+    <img src="icon.png" style="width: 100%">
+  </div>
+
+  <div class="myslides">
+    <div class="numbertext">5/6</div>
+    <img src="icon.png" style="width: 100%">
+  </div>
+
+  <div class="myslides">
+    <div class="numbertext">6/6</div>
+    <img src="icon.png" style="width: 100%">
+  </div>
+
+  <!--- next prev buttons -->
+  <a class="previous" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlider(1)">&#10095;</a>
+
+  <!-- img text -->
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <!-- thumbnail img -->
+  <div class="rowImg">
+    <div class="columnImg">
+      <img src="icon.png" class="demo cursor" style="width: 100%" onclick="currentSlide(1)" alt="some shit fun">
+    </div>
+
+    <div class="columnImg">
+      <img src="icon.png" class="demo cursor" style="width: 100%" onclick="currentSlide(2)" alt="some sports">
+    </div>
+  </div>
+
+  <div class="columnImg">
+    <img src="icon.png" class="demo cursor" style="width: 100%" onclick="currentSlide(3)" alt="someone winning">
+  </div>
+
+  <div class="columnImg">
+    <img src="icon.png" class="demo cursor" style="width: 100%" onclick="currentSlide(4)" alt="World champion">
+  </div>
+
+  <div class="columnImg">
+    <img src="icon.png" class="demo cursor" style="width: 100%" onclick="currentSlide(5)" alt="HAHA">
+  </div>
+
+  <div class="columnImg">
+    <img src="icon.png" class="demo cursor" style="width: 100%" onclick="currentSlide(6)" alt="some fun with friends">
+  </div>
+
+</div>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+<script src="js/slideshowAbout.js"></script>
+</body>
+</html>
