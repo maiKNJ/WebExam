@@ -1,0 +1,14 @@
+
+.right {
+  background-color: #999999;
+  float: right;
+  width: 300px;
+  padding: 20px;
+}
+
+.grid-container {
+  display: grid;
+  row-gap: 50px;
+ padding-left: 20px;
+
+}
