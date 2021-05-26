@@ -1,0 +1,8 @@
+<h1>Adidas or something</h1>
+<p>looking for teams sponsorships.</p>
+<p>Only sponsoring teams if everyone is dendrophile.</p>
+<p>and other freak-ish stuff.</p>
+
+<img src="icon.png" alt="Sponsor" style="width:30%">
+<img src="icon.png" alt="Sponsor" style="width:30%">
+<img src="icon.png" alt="Sponsor" style="width:30%">

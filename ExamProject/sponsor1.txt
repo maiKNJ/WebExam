@@ -1,0 +1,8 @@
+<h1>Nike or something</h1>
+<p>looking for individual sponsorships.</p>
+<p>prefer to sponsor babies in stripper heels.</p>
+<p>and whatever.</p>
+
+<img src="icon.png" alt="Sponsor" style="width:30%">
+<img src="icon.png" alt="Sponsor" style="width:30%">
+<img src="icon.png" alt="Sponsor" style="width:30%">
