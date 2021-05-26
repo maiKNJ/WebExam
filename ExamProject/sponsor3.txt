@@ -1,0 +1,8 @@
+<h1>Bunnies or something</h1>
+<p style="font-size:11px">looking for teams sponsorships.</p>
+<p style="font-size:11px">To hump or not to hump, thats the true question.</p>
+<p style="font-size:11px">and other bunny-ish stuff. furthermore this is a test for how much bunny stuff i can put into a paraghrapgh before it looks wierd since i would also love to have the images to be there aswell nd maybe i should do a little image gallery, that could be rad as hell! also i should not program at this hour of the day i start do write and implement wierd stuff. (HEI MAI!).</p>
+
+<img src="icon.png" alt="Sponsor" style="width:30%">
+<img src="icon.png" alt="Sponsor" style="width:30%">
+<img src="icon.png" alt="Sponsor" style="width:30%">
