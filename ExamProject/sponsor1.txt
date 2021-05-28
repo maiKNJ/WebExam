@@ -7,4 +7,10 @@
 <b>Preferences:</b> Swimming, Running, Archery, Bicycling.<br>
 <b>Requirements:</b> Age under 99, Orcs only.<br>
 Application deadline: 13.12.1110.<br>
+
+ <div style="font-size:40px; font-weight:bold; color:#727271 ">
+        <a href="https://twitter.com/nike"><i class="fa fa-twitter"></i></a>
+        <a href="https://www.facebook.com/nike"><i class="fa fa-facebook"></i></a>
+        <a href="https://www.instagram.com/nike"><i class="fa fa-instagram"></i></a>
+      </div>
 </p>

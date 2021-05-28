@@ -7,4 +7,9 @@
 <b>Preferences:</b> Running, Football, Goat Yoga, Bodybuilding, Basketball.<br>
 <b>Requirements:</b> Age between 80-90, only senile elders.<br>
 Application deadline: 04.07.2022.<br>
+<div style="font-size:40px; font-weight:bold; color:#727271 ">
+        <a href="https://twitter.com/puma"><i class="fa fa-twitter"></i></a>
+        <a href="https://www.facebook.com/puma"><i class="fa fa-facebook"></i></a>
+        <a href="https://www.instagram.com/puma"><i class="fa fa-instagram"></i></a>
+      </div>
 </p>
