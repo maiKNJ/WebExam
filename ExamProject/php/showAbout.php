@@ -5,6 +5,21 @@
 
   $result = $con->query($sql);
 
+  //second database for the images
+  $msg = '';
+  if (isset($_POST['upload'])){
+    $image = $_FILES['image']['name'];
+    $path = 'images/'.$image;
+
+    $sql1 = $con1->query("INSERT INTO slider (image_path) VALUES ('$path')");
+    if ($sql1){
+      move_uploaded_file($_FILES['image']['tmp_name'], $path);
+      $msg = 'image uploaded successfully';
+    }else{
+      $msg = 'image upload failed';
+    }
+  }
+  $result1 = $con1->query("SELECT image_path FROM slider");
 ?>
 <! DOCTYPE html>
 <html lang="en">
@@ -28,7 +43,7 @@
   <button onclick="document.getElementById('id01').style.display = 'block'"> Login</button>
 </div>
 
-<div class="row">
+<div class="row1">
   <?php
   if ($result->num_rows > 0): ?>
   <?php while ($row = $result->fetch_assoc()): ?>
@@ -66,7 +81,79 @@
 
 
 </div>
+<div class="container-fluid" style="padding-top: 250px;">
+  <div class="row justify-content-center mb-2">
+    <div class="col-lg-10">
+      <div id="demo" class="carousel slide" data-ride="carousel">
 
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+          <?php
+          $i = 0;
+          foreach ($result1 as $row):
+            $actives ='';
+            if ($i == 0){
+              $actives = 'active';
+            }
 
+          ?>
+          <li data-target="#demo" data-slide-to="<?= $i; ?>" class="<?= $actives; ?>"></li>
+          <?php $i++; endforeach; ?>
+        </ul>
+
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+          <?php
+          $i = 0;
+          foreach ($result1 as $row):
+          $actives ='';
+          if ($i == 0){
+            $actives = 'active';
+          }
+
+          ?>
+          <div class="carousel-item <?= $actives;?>">
+            <img src="<?= $row['image_path'] ?>" width="100%" height="400px">
+          </div>
+          <?php $i++; endforeach; ?>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+
+      </div>
+    </div>
+  </div>
+  <div class="row justify-content-center">
+    <div class="col-lg-4 bg-dark rounded px-4">
+      <h4 class="text-center text-light p-1">Select image to upload</h4>
+      <form action="" method="post" enctype="multipart/form-data">
+        <div class="form-group">
+          <input type="file" name="image" class="form-control p-1" required>
+        </div>
+        <div class="form-group">
+          <input type="submit" name="upload" class="btn btn-warning btn-block" value="Upload Image">
+        </div>
+        <div class="form-group">
+          <h5 class="text-center text-light"><?= $msg; ?> </h5>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 </body>

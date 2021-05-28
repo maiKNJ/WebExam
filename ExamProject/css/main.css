@@ -15,6 +15,7 @@ html {
   color: #222;
   font-size: 1em;
   line-height: 1.4;
+  height: 100%;
 }
 
 /*
@@ -26,6 +27,23 @@ html {
  *
  * Customize the background color to match your design.
  */
+#intro{
+  /* The image used */
+  background-image: url("Sport+Collage.png");
+
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 #indexH1{
   text-align: center;
   font-family: Verdana;
@@ -33,6 +51,7 @@ html {
   font-weight: bold;
   color: #4758d6;
   margin-bottom: 5px;
+  background-color: rgba(0,0,0,0);
 }
 #slogan{
   text-align: center;
@@ -40,13 +59,16 @@ html {
   font-size: 14px;
   font-weight: lighter;
   color: #201c1c;
+  background-color: rgba(0,0,0,0);
   margin-top: 2px;
 }
 
 body{
-  background-color: #eeeded;
+  //background-color: #eeeded;
   color: black;
   font-family: Verdana;
+  background-color: rgba(0,0,0,0);
+  height: 100%;
 }
 
 p{
@@ -61,14 +83,15 @@ img.sticky {
 }
 
 .topnav{
-  background-color: #555555;
+  //background-color: rgba(50,50,50,0.5);
+  color: #201c1c;
   overflow: hidden;
   font-family: Verdana;
 }
 
 .topnav a {
   float: left;
-  color: #ffffff;
+  color: #201c1c;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -85,14 +108,14 @@ img.sticky {
   font-size: 17px;
 }
 .topnav a:hover{
-  background-color: #e2ffff;
-  color: black;
+  //background-color: #e2ffff;
+  color: #e1811f;
 }
 
 .findSpons{
   padding: 80px 5px 120px 5px;
-  background-color: #c5c9e8;
-  color:#201c1c;
+  /*background-color: #c5c9e8;*/
+  color:whitesmoke;
   align-content: space-evenly;
 }
 
