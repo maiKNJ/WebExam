@@ -33,6 +33,7 @@ html {
     linear-gradient( rgba(245, 246, 252, 0.25), black),
     url('Sport+Collage.png');
 
+  background-color: #201c1c;
   padding-top: 0;
   margin-top: 0;
 
@@ -72,7 +73,7 @@ body{
   /*background-color: #eeeded;*/
   color: black;
   font-family: Verdana;
-  background-color: rgba(0,0,0,0);
+  background-color: black;
   height: 100%;
   margin-top: 0;
 }
@@ -105,14 +106,17 @@ img.sticky {
   font-weight: bolder;
 }
 
-.topnav button {
+.topnav img {
   float: left;
-  color: #ffffff;
+  /*height: 100px;
+  width: 115px;*/
+  padding: 35px 0 0 45px;
+  /*color: #ffffff;
   background-color: #e1811f;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 17px;*/
 }
 .topnav a:hover{
   //background-color: #e2ffff;
