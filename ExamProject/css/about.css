@@ -14,7 +14,11 @@
   /*background-color: #c5c9e8;*/
 }
 .right{
-  width: 75%;
+  width: 73%;
+  background-color: rgba(0,0,0,0.5);
+  box-shadow: #201c1c;
+  margin-top: 0;
+  margin-right: 2px;
 }
 
 .row1:after{
@@ -30,9 +34,10 @@
   margin: auto;
   text-align: center;
   position: sticky;
+  background-color: black;
 }
 .sport{
-  color: gray;
+  color: #727271;
   font-size: 18px;
 }
 #msgbtn{

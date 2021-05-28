@@ -49,6 +49,28 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
 }
+#intro2{
+  /* The image used */
+  background-image:
+    linear-gradient( rgba(0, 0, 0, 0.25), black),
+    url('jordan.jpg');
+
+  background-color: #201c1c;
+  padding-top: 0;
+  margin-top: 0;
+
+  /* Add the blur effect */
+  /*filter: blur(8px);
+  -webkit-filter: blur(8px);*/
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  /*background-position: center;*/
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 #indexH1{
   text-align: center;
@@ -124,10 +146,24 @@ img.sticky {
 }
 
 .findSpons{
-  padding: 80px 5px 120px 5px;
+  margin: 80px 50px 120px 5px;
   /*background-color: #c5c9e8;*/
   color:whitesmoke;
   align-content: space-evenly;
+}
+.findSpons h1{
+  font-size: 145px;
+  color: white;
+  font-weight: bolder;
+}
+
+.shit{
+  font-size: 90px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  padding-top: 500px;
+  padding-bottom: 300px;
 }
 
 .topnav button:hover{
@@ -318,7 +354,7 @@ textarea {
 
   a,
   a:visited {
-    text-decoration: underline;
+    text-decoration: none;
   }
 
   a[href]::after {
