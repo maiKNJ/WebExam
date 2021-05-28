@@ -37,9 +37,9 @@
 <!--<h1 id="indexH1">Profile</h1>-->
 <div id="intro" class="bg-image shadow-2-strong">
 <div class="topnav">
-  <a href="/ExamProject/index.html"> Home </a>
-  <a href="/ExamProject/availSpons.html"> Available sponsors </a>
   <a class="active1" href="showAbout.php"> About</a>
+  <a href="/ExamProject/availSpons.html"> Available sponsors </a>
+  <a href="/ExamProject/index.html"> Home </a>
 
   <img src="/ExamProject/img/LOGO.PNG" style="height: 95px; width: 115px;">
   <!--<button onclick="document.getElementById('id01').style.display = 'block'"> Login</button>-->
@@ -55,28 +55,29 @@
       <!--<h1>Name Of Athlete</h1> -->
 
       <?php
-            echo "<p>". $row['id']. "</p>";
-            echo "<h1>". $row['name']. "</h1>";
+            //echo "<p>". $row['id']. "</p>";
+            echo "<h1 style='color: #ef6817;'>". $row['name']. "</h1>";
       ?>
       <p class="sport">Køge</p>
       <!--<p>Archery</p>-->
-      <?php echo "<p>". $row['sport']. "</p>"?>
+      <?php echo "<p style='color: white;'>". $row['sport']. "</p>"?>
       <div style="margin: 24px 0;">
-        <a href="#"><i class="fa fa-twitter"></i></a>
-        <a href="#"><i class="fa fa-facebook"></i></a>
-        <a href="#"><i class="fa fa-instagram"></i></a>
+        <a href="#"><i class="fa fa-twitter" style="color: white;"></i></a>
+        <a href="#"><i class="fa fa-facebook" style="color: white;"></i></a>
+        <a href="#"><i class="fa fa-instagram" style="color: white;"></i></a>
       </div>
       <p><button id="msgbtn" >Message for colab</button></p>
     </div>
   </div>
+      <?php echo "<a style = 'float: right; margin-right: 30px;' class ='btn btn-secondary' href='edit.php?id=" .$row['id']."'> Edit </a> ";?>
   <div class="column right">
-    <?php echo "<a class ='btn btn-secondary' href='edit.php?id=" .$row['id']."'> Edit </a> ";?>
+
     <!--<p>lorem ipsum bla fghjklæ  lorem ipsum collu lorem ipsum collu lorem ipsum collu lorem ipsum collu lorem ipsum collu
       lorem ipsum collulorem ipsum collulorem ipsum collulorem ipsum collulorem ipsum collulorem ipsum collulorem ipsum collu
       lorem ipsum collulorem ipsum collulorem ipsum collulorem ipsum collulorem ipsum collulorem ipsum collulorem ipsum collu
       lorem ipsum collulorem ipsum collulorem ipsum collulorem ipsum collulorem ipsum collulorem ipsum collulorem ipsum collu
     </p>-->
-    <?php echo "<p>". $row['about']. "</p>" ?>
+    <?php echo "<p style='color: whitesmoke;'>". $row['about']. "</p>" ?>
   </div>
   <?php endwhile;?>
   <?php endif; ?>
