@@ -1,8 +1,20 @@
-<h1>Nike or something</h1>
-<p style="font-size:11px >looking for individual sponsorships.</p>
-<p style="font-size:11px >prefer to sponsor babies in stripper heels.</p>
-<p style="font-size:11px >and whatever.</p>
+ <div class="container">
+      <img src="icon.png" alt="sponsor" class="imageTiny"  >
+      <div class="overlay">
+        <div class="text">
+           Just do it!
+        </div>
+      </div>
+    </div>
 
-<img src="icon.png" alt="Sponsor" style="width:30%">
-<img src="icon.png" alt="Sponsor" style="width:30%">
-<img src="icon.png" alt="Sponsor" style="width:30%">
+<p style="font-size:30px;">
+<span style="font-size:70px; font-weight:bold">Nike </span><br>
+<span style="font-size:40px; font-weight:bold">Individual sponsorships. </span><br>
+<br>
+Amounts between : 00.1 - 666 DDK
+Preferences: Swimming, Running, Archery, Bicycling.<br>
+Requirements: Age under 99, Orcs only.<br>
+Application deadline: 13.12.1110.<br>
+
+
+</p>

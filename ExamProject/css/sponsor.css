@@ -13,11 +13,37 @@
   margin-left: 5%;
   margin-bottom: 5%;
 }
+
 .grid-container {
   display: grid;
   row-gap: 50px;
-
-
+}
+.bgimg, .bgimg2 {
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+button{
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #222222;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+button:hover, a:hover {
+  opacity: 0.7;
 }
 #sponsorText {
   bottom: 20px;
@@ -44,6 +70,65 @@ div.fixed {
   border: 3px solid #73AD21;
 }
 
+
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.imageTiny {
+  margin-left:200px;
+  display: block;
+  width: 40%;
+  height: auto;
+}
+.overlayTiny {
+
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+
+}
+.overlay {
+
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
 
 
 
