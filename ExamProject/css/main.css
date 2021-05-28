@@ -29,17 +29,22 @@ html {
  */
 #intro{
   /* The image used */
-  background-image: url("Sport+Collage.png");
+  background-image:
+    linear-gradient( rgba(245, 246, 252, 0.25), black),
+    url('Sport+Collage.png');
+
+  padding-top: 0;
+  margin-top: 0;
 
   /* Add the blur effect */
-  filter: blur(8px);
-  -webkit-filter: blur(8px);
+  /*filter: blur(8px);
+  -webkit-filter: blur(8px);*/
 
   /* Full height */
   height: 100%;
 
   /* Center and scale the image nicely */
-  background-position: center;
+  /*background-position: center;*/
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -64,11 +69,12 @@ html {
 }
 
 body{
-  //background-color: #eeeded;
+  /*background-color: #eeeded;*/
   color: black;
   font-family: Verdana;
   background-color: rgba(0,0,0,0);
   height: 100%;
+  margin-top: 0;
 }
 
 p{
@@ -84,22 +90,23 @@ img.sticky {
 
 .topnav{
   //background-color: rgba(50,50,50,0.5);
-  color: #201c1c;
+  color: #727271;
   overflow: hidden;
   font-family: Verdana;
 }
 
 .topnav a {
-  float: left;
-  color: #201c1c;
+  float: right;
+  color: #727271;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 24px;
+  font-weight: bolder;
 }
 
 .topnav button {
-  float: right;
+  float: left;
   color: #ffffff;
   background-color: #e1811f;
   text-align: center;
@@ -109,7 +116,7 @@ img.sticky {
 }
 .topnav a:hover{
   //background-color: #e2ffff;
-  color: #e1811f;
+  color: #383838;
 }
 
 .findSpons{
@@ -125,8 +132,8 @@ img.sticky {
 }
 
 .topnav a.active{
-  background-color: #4758d6;
-  color: white;
+  /*background-color: #4758d6;*/
+  color: #ef6817;
 }
 
 ::-moz-selection {
