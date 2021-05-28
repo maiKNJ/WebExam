@@ -10,7 +10,8 @@
 
 .left{
   width: 25%;
-  background-color: #c5c9e8;
+  padding-top: 35px;
+  /*background-color: #c5c9e8;*/
 }
 .right{
   width: 75%;
@@ -24,9 +25,11 @@
 
 .card{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 100%;
+  max-width: 360px;
+  max-height: 650px;
   margin: auto;
   text-align: center;
+  position: sticky;
 }
 .sport{
   color: gray;
@@ -38,7 +41,7 @@
   display: inline-block;
   padding: 8px;
   color: white;
-  background-color: #000000;
+  background-color: #ef6817;
   text-align: center;
   cursor: pointer;
   width: 100%;
@@ -48,8 +51,9 @@ a{
   text-decoration: none;
   font-size: 22px;
   color: black;
+
 }
-button:hover, a:hover{
+.card button:hover, .card a:hover{
   opacity: 0.7;
 }
 

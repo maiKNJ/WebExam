@@ -34,13 +34,15 @@
 
 </head>
 <body>
-<h1 id="indexH1">Profile</h1>
-
+<!--<h1 id="indexH1">Profile</h1>-->
+<div id="intro" class="bg-image shadow-2-strong">
 <div class="topnav">
-  <a href="index.html"> Home </a>
-  <a href="availSpons.html"> Available sponsors </a>
-  <a class="active" href="about.html"> About</a>
-  <button onclick="document.getElementById('id01').style.display = 'block'"> Login</button>
+  <a href="/ExamProject/index.html"> Home </a>
+  <a href="/ExamProject/availSpons.html"> Available sponsors </a>
+  <a class="active1" href="showAbout.php"> About</a>
+
+  <img src="/ExamProject/img/LOGO.PNG" style="height: 95px; width: 115px;">
+  <!--<button onclick="document.getElementById('id01').style.display = 'block'"> Login</button>-->
 </div>
 
 <div class="row1">
@@ -49,7 +51,7 @@
   <?php while ($row = $result->fetch_assoc()): ?>
   <div class="column left">
     <div class="card">
-      <img src="/ExamProject/icon.png" alt="profile pic">
+      <img src="/ExamProject/icon.png" alt="profile pic" style="width: 85%; height: 85%; padding: 40px 5px 5px 50px;">
       <!--<h1>Name Of Athlete</h1> -->
 
       <?php
@@ -145,6 +147,7 @@
       </form>
     </div>
   </div>
+</div>
 </div>
 
 <!-- jQuery library -->
