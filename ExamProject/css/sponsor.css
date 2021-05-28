@@ -83,13 +83,12 @@ div.fixed {
   height: auto;
 }
 .imageTiny {
-  margin-left:200px;
+  float: right;
   display: block;
   width: 40%;
   height: auto;
 }
 .overlayTiny {
-
   position: absolute;
   top: 0;
   bottom: 0;
