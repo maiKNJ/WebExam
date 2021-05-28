@@ -6,7 +6,6 @@
   padding: 20px;
 }
 .left {
-  background-color: Black;
   float: left;
   width: 30%;
   padding: 20px;
@@ -50,9 +49,9 @@ button:hover, a:hover {
   padding: 15px;
   right: 5%;
   width: 40%;
-  top: 22%;
+  top: 10%;
   text-align: center;
-  background-color: black;
+ 
   margin-top: 20px;
   position: fixed;
 }
@@ -81,25 +80,6 @@ div.fixed {
   display: block;
   width: 100%;
   height: auto;
-}
-.imageTiny {
-  float: right;
-  display: block;
-  width: 40%;
-  height: auto;
-}
-.overlayTiny {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #ef6817;
-
 }
 .overlay {
 
