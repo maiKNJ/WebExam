@@ -1,19 +1,11 @@
- <div class="container">
-      <img src="icon.png" alt="sponsor" class="imageTiny"  >
-      <div class="overlay">
-        <div class="text">
-           Just do it!
-        </div>
-      </div>
-    </div>
-
-<p style="font-size:30px;">
-<span style="font-size:70px; font-weight:bold">Nike </span><br>
+<img src="icon.png" alt="Sponsor" style="width:40%; float: right;">
+<p style="font-size:30px; color:White">
+<span style="font-size:70px; font-weight:bold; color:#ef6817">Nike </span><br>
 <span style="font-size:40px; font-weight:bold">Individual sponsorships. </span><br>
 <br>
-Amounts between : 00.1 - 666 DDK
-Preferences: Swimming, Running, Archery, Bicycling.<br>
-Requirements: Age under 99, Orcs only.<br>
+<b>Amounts between : </b> 00.1 - 666 DDK
+<b>Preferences:</b> Swimming, Running, Archery, Bicycling.<br>
+<b>Requirements:</b> Age under 99, Orcs only.<br>
 Application deadline: 13.12.1110.<br>
 
 

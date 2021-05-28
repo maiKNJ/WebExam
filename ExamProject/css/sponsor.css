@@ -1,12 +1,12 @@
 
 .right {
-  background-color: #999999;
+  background-color: #383838;
   float: right;
   width: 300px;
   padding: 20px;
 }
 .left {
-  background-color: #999999;
+  background-color: Black;
   float: left;
   width: 30%;
   padding: 20px;
@@ -52,7 +52,7 @@ button:hover, a:hover {
   width: 40%;
   top: 22%;
   text-align: center;
-  background-color: #999999;
+  background-color: black;
   margin-top: 20px;
   position: fixed;
 }
@@ -98,7 +98,7 @@ div.fixed {
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #008CBA;
+  background-color: #ef6817;
 
 }
 .overlay {
@@ -112,7 +112,7 @@ div.fixed {
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #008CBA;
+  background-color:  #ef6817;
 }
 
 .container:hover .overlay {
