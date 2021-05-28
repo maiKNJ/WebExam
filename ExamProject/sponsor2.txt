@@ -1,8 +1,10 @@
-<h1>Adidas or something</h1>
-<p style="font-size:11px>looking for teams sponsorships.</p>
-<p style="font-size:11px>Only sponsoring teams if everyone is dendrophile.</p>
-<p style="font-size:11px>and other freak-ish stuff.</p>
-
-<img src="icon.png" alt="Sponsor" style="width:30%">
-<img src="icon.png" alt="Sponsor" style="width:30%">
-<img src="icon.png" alt="Sponsor" style="width:30%">
+<img src="img/Adidas.jpg" alt="Sponsor" style="width:40%; float: right;">
+<p style="font-size:30px; color:white">
+<span style="font-size:70px; font-weight:bold; color:#ef6817">Adidas </span><br>
+<span style="font-size:40px; font-weight:bold; color:#727271">Team sponsorships. </span><br>
+<br>
+<b>Amounts between : </b> 100 - 1.966 DDK
+<b>Preferences:</b> Dancing, Football, Handball, Bodybuilding, Basketball.<br>
+<b>Requirements:</b> Age between 4-7.<br>
+Application deadline: 01.01.2026.<br>
+</p>

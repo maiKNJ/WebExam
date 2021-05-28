@@ -1,8 +1,10 @@
-<h1>Bunnies or something</h1>
-<p style="font-size:11px">looking for teams sponsorships.</p>
-<p style="font-size:11px">To hump or not to hump, thats the true question.</p>
-<p style="font-size:11px">and other bunny-ish stuff. furthermore this is a test for how much bunny stuff i can put into a paraghrapgh before it looks wierd since i would also love to have the images to be there aswell nd maybe i should do a little image gallery, that could be rad as hell! also i should not program at this hour of the day i start do write and implement wierd stuff. (HEI MAI!).</p>
-
-<img src="icon.png" alt="Sponsor" style="width:30%">
-<img src="icon.png" alt="Sponsor" style="width:30%">
-<img src="icon.png" alt="Sponsor" style="width:30%">
+<img src="img/puma.png" alt="Sponsor" style="width:40%; float: right;">
+<p style="font-size:30px; color:white">
+<span style="font-size:70px; font-weight:bold; color:#ef6817">Puma </span><br>
+<span style="font-size:40px; font-weight:bold; color:#727271">Team sponsorships. </span><br>
+<br>
+<b>Amounts between : </b> 199 - 800 DDK
+<b>Preferences:</b> Running, Football, Goat Yoga, Bodybuilding, Basketball.<br>
+<b>Requirements:</b> Age between 80-90, only senile elders.<br>
+Application deadline: 04.07.2022.<br>
+</p>

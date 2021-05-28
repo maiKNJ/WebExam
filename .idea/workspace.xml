@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="114d4fe5-57df-4a0d-86b5-8573d52f99ca" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ExamProject/img/Adidas.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExamProject/img/Puma.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExamProject/img/nike.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ExamProject/availSpons.html" beforeDir="false" afterPath="$PROJECT_DIR$/ExamProject/availSpons.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExamProject/css/sponsor.css" beforeDir="false" afterPath="$PROJECT_DIR$/ExamProject/css/sponsor.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ExamProject/sponsor1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ExamProject/sponsor1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExamProject/sponsor2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ExamProject/sponsor2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExamProject/sponsor3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ExamProject/sponsor3.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +69,7 @@
       <option name="presentableId" value="Default" />
       <updated>1622039334822</updated>
       <workItem from="1622039337641" duration="20161000" />
-      <workItem from="1622135965244" duration="22276000" />
+      <workItem from="1622135965244" duration="24695000" />
     </task>
     <servers />
   </component>

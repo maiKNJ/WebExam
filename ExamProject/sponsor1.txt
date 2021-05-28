@@ -1,12 +1,10 @@
-<img src="icon.png" alt="Sponsor" style="width:40%; float: right;">
-<p style="font-size:30px; color:White">
+<img src="img/nike.png" alt="Sponsor" style="width:40%; float: right;">
+<p style="font-size:30px; color:white">
 <span style="font-size:70px; font-weight:bold; color:#ef6817">Nike </span><br>
-<span style="font-size:40px; font-weight:bold">Individual sponsorships. </span><br>
+<span style="font-size:40px; font-weight:bold; color:#727271">Individual sponsorships. </span><br>
 <br>
 <b>Amounts between : </b> 00.1 - 666 DDK
 <b>Preferences:</b> Swimming, Running, Archery, Bicycling.<br>
 <b>Requirements:</b> Age under 99, Orcs only.<br>
 Application deadline: 13.12.1110.<br>
-
-
 </p>
