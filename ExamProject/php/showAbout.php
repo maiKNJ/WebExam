@@ -37,7 +37,7 @@
 <!--<h1 id="indexH1">Profile</h1>-->
 <div id="intro" class="bg-image shadow-2-strong">
 <div class="topnav">
-  <a class="active1" href="showAbout.php"> About</a>
+  <a class="active1" href="showAbout.php"> Profile</a>
   <a href="/ExamProject/availSpons.html"> Available sponsors </a>
   <a href="/ExamProject/index.html"> Home </a>
 
@@ -66,7 +66,7 @@
         <a href="#"><i class="fa fa-facebook" style="color: white;"></i></a>
         <a href="#"><i class="fa fa-instagram" style="color: white;"></i></a>
       </div>
-      <p><button id="msgbtn" >Message for colab</button></p>
+      <p><a id="msgbtn" href="mailto: someone@something.net" >Message for colab</a></p>
     </div>
   </div>
       <?php echo "<a style = 'float: right; margin-right: 30px;' class ='btn btn-secondary' href='edit.php?id=" .$row['id']."'> Edit </a> ";?>
