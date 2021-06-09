@@ -25,13 +25,13 @@
   <img src="img/LOGO.PNG" style="width: 70px; height: 60px">
 </div>
 
-<div class="teams">
-  <h5> Show the team sponsors available</h5>
-</div>
 
-<div class="indi">
-  <h5>Show the individual sponsors available</h5>
-</div>
+  <div id="myBtnContainer">
+    <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+    <button class="btn" onclick="filterSelection('Individual')"> Individual Sponsors</button>
+    <button class="btn" onclick="filterSelection('Teams')"> Team Sponsors</button>
+  </div>
+
 
 
 <div class="card">
@@ -47,6 +47,7 @@
 
 
     <!-- SPONSOR1 -->
+    <div class="filterDiv Individual">
     <div class="shadow">
     <div class="container">
       <img src="img/nike.png" alt="sponsor" class="image" >
@@ -62,9 +63,10 @@
     Indiviual sponsor </h2>
    <h2><button onclick="SponsorText1()">Contact</button></h2>
     </div>
-
+  </div>
 
     <!-- SPONSOR2 -->
+    <div class="filterDiv Teams">
     <div class="shadow">
     <div class="container">
       <img src="img/Adidas.jpg" alt="sponsor" class="image" >
@@ -80,8 +82,10 @@
       Team sponsor </h2>
     <h2><button onclick="SponsorText2()">Contact</button></h2>
     </div>
+    </div>
 
     <!-- SPONSOR3 -->
+    <div class="filterDiv Teams">
     <div class="shadow">
     <div class="container">
       <img src="img/puma.png" alt="sponsor" class="image" >
@@ -97,6 +101,7 @@
       Team sponsor </h2>
     <h2><button onclick="SponsorText3()">Contact</button></h2>
     </div>
+    </div>
 
 
   </div>
@@ -105,6 +110,7 @@
 </div>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
 <script src="js/main.js"></script>
+<script src="js/Sort.js"></script>
 <script src="js/Buttons.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </body>
